@@ -2,5 +2,6 @@
 <con:soapui-workspace name="Curso de SoapUI" soapui-version="5.7.1" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:project name="Calculadora">C:/Cursos/Testing/TEST20231009/Calculadora-soapui-project.xml</con:project>
+  <con:project name="kk">C:/Cursos/Testing/TEST20231009/kk-soapui-project.xml</con:project>
   <con:collectInfoForSupport>false</con:collectInfoForSupport>
 </con:soapui-workspace>
