@@ -2,8 +2,9 @@
 <con:soapui-workspace name="Curso de SoapUI" soapui-version="5.7.1" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:project name="Calculadora">C:/Cursos/Testing/TEST20231009/Calculadora-soapui-project.xml</con:project>
-  <con:project name="kk">C:/Cursos/Testing/TEST20231009/kk-soapui-project.xml</con:project>
+  <con:project status="CLOSED" name="kk">C:/Cursos/Testing/TEST20231009/kk-soapui-project.xml</con:project>
   <con:project name="Swagger Petstore">C:/Cursos/Testing/TEST20231009/Swagger-Petstore-soapui-project.xml</con:project>
   <con:project name="Tienda de mascotas">C:/Cursos/Testing/TEST20231009/Tienda-de-mascotas-soapui-project.xml</con:project>
+  <con:project name="httpbin">C:/Cursos/Testing/TEST20231009/httpbin-soapui-project.xml</con:project>
   <con:collectInfoForSupport>false</con:collectInfoForSupport>
 </con:soapui-workspace>
