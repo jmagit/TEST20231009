@@ -1,0 +1,31 @@
+Estamos viendo un curso de SOAP UI de 15:00 a 19:00
+La semana que viene tenemos un curso de Postman de 9:00 a 14:00
+
+<Cursos>
+    <Curso id="T02" nombre='otro ape1 ape2'>
+    Estamos viendo un curso de <titulo>SOAP UI</titulo> de <inicio>15:00</inicio> a <final>19:00</final>
+    <nombre><nom>a</nom><ape>b</ape><ape>c</ape></nombre>
+    <nombre><nom>b</nom><ape>c</ape></nombre>
+    </Curso>
+    <Curso nombre='algo a=2'>
+    <id>T33</id>
+    Estamos viendo un curso de <titulo>Postman</titulo> de <inicio><h>9</h>:<min>00</min></inicio> a <final>14:00</final>
+    </Curso>
+    <Aula id="1" localizacion="Madrid" />
+</Cursos>
+
+<Cursos>
+    <Curso id="T02">
+    <titulo>SOAP UI</titulo><inicio>15:00</inicio><final>19:00</final>
+    <nombre><nom>a</nom><ape>b</ape><ape>c</ape></nombre>
+    <nombre><nom>b</nom><ape>c</ape></nombre>
+    </Curso>
+    <Curso nombre='algo a=2' nombre='otro'>
+    <id>T33</id>
+    <titulo>Postman</titulo><inicio>9:00</inicio><final>14:00</final>
+    </Curso>
+</Cursos>
+Cursos
+titulo      | inicio    | final | id
+SOAP UI     15:00       19:00
+Postman     9:00        14:00
