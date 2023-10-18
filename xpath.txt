@@ -8,3 +8,8 @@
 //Pet[1]/photoUrls/count(*)
 count(//category/name[text()='dog'])
 //Pet[id='1512288618']/name
+
+$
+$[0].photoUrls
+$..category[?(@.name=='dog')] --mal
+$[?(@.id==1512288618)].name
