@@ -1,3 +1,10 @@
 /soap:Envelope/soap:Body/c:Municipios/c:consulta_municipiero/c:municipiero/c:muni[1]
 //c:municipiero/c:muni[2]
 //c:muni/c:nm[text()='PEDREZUELA']/parent::*
+//c:municipiero/count(*)
+//*[@rowNumber=201]/ACTOR.FIRST_NAME
+
+//pets/count(*)
+//Pet[1]/photoUrls/count(*)
+count(//category/name[text()='dog'])
+//Pet[id='1512288618']/name
