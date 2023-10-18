@@ -1,0 +1,3 @@
+/soap:Envelope/soap:Body/c:Municipios/c:consulta_municipiero/c:municipiero/c:muni[1]
+//c:municipiero/c:muni[2]
+//c:muni/c:nm[text()='PEDREZUELA']/parent::*
