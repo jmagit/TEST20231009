@@ -12,4 +12,5 @@ count(//category/name[text()='dog'])
 $
 $[0].photoUrls
 $..category[?(@.name=='dog')] --mal
+$..[?(@.category.name == 'dog')] --bien
 $[?(@.id==1512288618)].name
