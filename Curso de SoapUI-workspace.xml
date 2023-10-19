@@ -7,5 +7,6 @@
   <con:project name="Tienda de mascotas">C:/Cursos/Testing/TEST20231009/Tienda-de-mascotas-soapui-project.xml</con:project>
   <con:project status="CLOSED" name="httpbin">C:/Cursos/Testing/TEST20231009/httpbin-soapui-project.xml</con:project>
   <con:project status="CLOSED" name="Catastro">C:/Cursos/Testing/TEST20231009/Catastro-soapui-project.xml</con:project>
+  <con:project name="Paise">C:/Cursos/Testing/TEST20231009/Paise-soapui-project.xml</con:project>
   <con:collectInfoForSupport>false</con:collectInfoForSupport>
 </con:soapui-workspace>
