@@ -1,0 +1,47 @@
+Status: FAILED
+Time Taken: 30
+Size: 318
+Timestamp: Thu Oct 19 18:33:05 CEST 2023
+TestStep: SOAP Request 2
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains comparison failed for path [declare namespace ns1='http://tempuri.org/';
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+//ns1:AddResult], expecting [5], actual was [4]
+
+----------------- Properties ------------------------------
+Endpoint: http://JAVIER-LAPTOP:8088/mockCalculator
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/16.0.2)
+Host : JAVIER-LAPTOP:8088
+Accept-Encoding : gzip,deflate
+Content-Length : 271
+Content-Type : application/soap+xml;charset=UTF-8;action="http://tempuri.org/Add"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Add>
+         <tem:intA>3</tem:intA>
+         <tem:intB>2</tem:intB>
+      </tem:Add>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Jetty(6.1.26)
+#status# : HTTP/1.1 200 OK
+Content-Type : application/soap+xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <AddResponse xmlns="http://tempuri.org/">
+         <AddResult>4</AddResult>
+      </AddResponse>
+   </soap:Body>
+</soap:Envelope>

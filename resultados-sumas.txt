@@ -1,0 +1,9 @@
+TestCase [Suma 2 valores validos] started at 2023-10-19 18:41:19.167
+Step 1 [Suma] OK: took 342 ms
+TestCase [Suma 2 valores validos] finished with status [FINISHED], time taken = 342
+TestCase [Decimales] started at 2023-10-19 18:41:19.516
+TestCase [Decimales] finished with status [FINISHED], time taken = 177
+TestCase [Formato] started at 2023-10-19 18:41:19.696
+Step 1 [Add - Con decimales] OK: took 177 ms
+TestCase [Formato] finished with status [FINISHED], time taken = 179
+Step 2 [SOAP Request] OK: took 179 ms

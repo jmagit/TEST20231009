@@ -1,0 +1,62 @@
+TestSuite [Sumas] started at 2023-10-19 18:40:01
+TestCase [Suma 2 valores validos] started at 2023-10-19 18:40:01.108
+TestCase [Suma 2 valores validos] finished with status [FINISHED], time taken = 181
+Step 1 [Suma] OK: took 181 ms
+TestCase [Decimales] started at 2023-10-19 18:40:01.291
+TestCase [Decimales] finished with status [FINISHED], time taken = 177
+TestCase [Formato] started at 2023-10-19 18:40:01.470
+Step 1 [Add - Con decimales] OK: took 177 ms
+TestCase [Formato] finished with status [FINISHED], time taken = 174
+Step 2 [SOAP Request] OK: took 174 ms
+TestSuite [Sumas] finished with status [FINISHED], time taken = 538
+TestSuite [Integracion] started at 2023-10-19 18:40:01
+TestCase [Proceso] started at 2023-10-19 18:40:01.668
+Step 1 [Properties] OK: took 0 ms
+Step 2 [Properties2] OK: took 0 ms
+Step 3 [Add] OK: took 179 ms
+Step 4 [Resultado Suma] OK: took 4 ms
+ -> Performed transfer [resultado]
+ -> Performed transfer [cache]
+Step 5 [Espera] OK: took 999 ms
+Step 6 [Multiply] OK: took 181 ms
+Step 7 [Resultado Producto] OK: took 3 ms
+ -> Performed transfer [resultado]
+ -> Performed transfer [cache]
+Step 8 [Copy of Espera] OK: took 999 ms
+Step 9 [Subtract] OK: took 174 ms
+Step 10 [Resultado Resta] OK: took 2 ms
+ -> Performed transfer [resultado]
+ -> Performed transfer [cache]
+Step 11 [Copy of Espera 1] OK: took 1000 ms
+Step 12 [Recibido SMS] OK: took 5804 ms
+TestCase [Proceso] finished with status [FINISHED], time taken = 9526
+TestCase [Otro Proceso] started at 2023-10-19 18:40:11.201
+TestCase [Otro Proceso] finished with status [FINISHED], time taken = 1
+TestCase [PCarga] started at 2023-10-19 18:40:11.203
+Step 1 [Divide] OK: took 181 ms
+Step 2 [Properties] OK: took 1 ms
+ -> Loaded 4 properties from [C:/Cursos/Testing/TEST20231009/propiedades.properties]
+Step 3 [Properties] OK: took 0 ms
+Step 4 [Properties2] OK: took 0 ms
+Step 5 [Add] OK: took 175 ms
+Step 6 [Resultado Suma] OK: took 3 ms
+ -> Performed transfer [resultado]
+ -> Performed transfer [cache]
+Step 7 [Multiply] OK: took 172 ms
+Step 8 [Resultado Producto] OK: took 2 ms
+ -> Performed transfer [resultado]
+ -> Performed transfer [cache]
+Step 9 [Subtract] OK: took 174 ms
+Step 10 [Resultado Resta] OK: took 3 ms
+ -> Performed transfer [resultado]
+ -> Performed transfer [cache]
+TestCase [PCarga] finished with status [FINISHED], time taken = 714
+TestSuite [Integracion] finished with status [FINISHED], time taken = 10272
+TestSuite [Contra el mock] started at 2023-10-19 18:40:11
+TestCase [Suma] started at 2023-10-19 18:40:11.921
+TestCase [Suma] failed [Cancelling due to failed test step], time taken = 12
+Step 1 [Divide] OK: took 185 ms
+TestSuite [Contra el mock] failed [null], time taken = 35
+Step 2 [SOAP Request] FAILED: took 12 ms
+ -> [SOAP Response] error: The element type "body" must be terminated by the matching end-tag "</body>".
+ -> [SOAP Response] The element type "body" must be terminated by the matching end-tag "</body>".

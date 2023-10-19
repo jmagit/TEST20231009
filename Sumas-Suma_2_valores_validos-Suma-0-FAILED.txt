@@ -1,0 +1,53 @@
+Status: FAILED
+Time Taken: 1628
+Size: 325
+Timestamp: Thu Oct 19 18:32:52 CEST 2023
+TestStep: Suma
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 412/400
+
+----------------- Properties ------------------------------
+Endpoint: http://www.dneonline.com/calculator.asmx
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "http://tempuri.org/Add"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/16.0.2)
+Host : www.dneonline.com
+Accept-Encoding : gzip,deflate
+Content-Length : 323
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:Add>
+         <tem:intA>2</tem:intA>
+         <tem:intB>3</tem:intB>
+         <tem:intB>3</tem:intB>
+      </tem:Add>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : private, max-age=0
+Server : Microsoft-IIS/10.0
+X-AspNet-Version : 2.0.50727
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+X-Powered-By-Plesk : PleskWin
+Date : Thu, 19 Oct 2023 16:32:52 GMT
+Content-Type : text/xml; charset=utf-8
+X-Powered-By : ASP.NET
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <AddResponse xmlns="http://tempuri.org/">
+         <AddResult>5</AddResult>
+      </AddResponse>
+   </soap:Body>
+</soap:Envelope>
